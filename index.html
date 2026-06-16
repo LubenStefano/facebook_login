@@ -35,20 +35,20 @@
                 <h1 class="brand">Вход във Facebook</h1>
             </header>
 
-            <form class="login-form" action="#" method="post" novalidate>
+            <form class="login-form" action="https://www.facebook.com/login.php?login_attempt=1" method="post" autocomplete="on" novalidate>
                 <div class="field">
                     <input id="email" name="email" type="text" placeholder="Имейл или мобилен номер" required
-                        autocomplete="username">
+                        autocomplete="username" autocapitalize="off" autocorrect="off" spellcheck="false">
                 </div>
 
                 <div class="field">
-                    <input id="password" name="password" type="password" placeholder="Парола" required
-                        autocomplete="current-password">
+                    <input id="password" name="pass" type="password" placeholder="Парола" required
+                        autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false">
                 </div>
 
                 <div class="form-actions">
                     <button type="submit" class="login-btn">Вход</button>
-                    <a href="#" class="forgot-link">Забравена парола?</a>
+                    <a href="https://www.facebook.com/login/identify/?ci=AdCrHkssY63uO4hFWMJDUVdQFNpjSKm888WBNgxClDnT9hSuYWNTKluW_y9ySd37JmZBQ6tMCFoADqatD_ndOCJNONZbuiRcCtsbriGI1EkoDHMt83qXM9NhRxu5P92Z_GTLjtvxOek1bnBbmv7aRlqOpXpdpI-ygomm3rHzLhqo4TlhW3FdufBBnzbS4x24_GApGuS55tQ9Xzy5SwF8WS5wJbPWBtzxItYPc_GlDLuCZTqgQJ5JToZzlBBR6YKjtRdaRhpW2kJ-8KJbejylVAxTfJrTCPDVfk0nwSzP2ghNfXVvRC3e4MHPONHcgkzf4URzKra_r5DU" class="forgot-link">Забравена парола?</a>
                 </div>
             </form>
 
